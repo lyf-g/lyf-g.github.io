@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>FlowShards</title>
+  
+  <subtitle>FlowShards</subtitle>
+  <link href="https://lyf-g.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://lyf-g.github.io/"/>
+  <updated>2024-01-04T01:31:25.120Z</updated>
+  <id>https://lyf-g.github.io/</id>
+  
+  <author>
+    <name>lyf</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Shell常用命令</title>
+    <link href="https://lyf-g.github.io/posts/cdf8534a.html"/>
+    <id>https://lyf-g.github.io/posts/cdf8534a.html</id>
+    <published>2024-01-02T02:31:48.000Z</published>
+    <updated>2024-01-04T01:31:25.120Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Shell-环境&quot;&gt;&lt;a href=&quot;#Shell-环境&quot; class=&quot;headerlink&quot; title=&quot;Shell 环境&quot;&gt;&lt;/a&gt;Shell 环境&lt;/h1&gt;&lt;h2 id=&quot;Shell-种类&quot;&gt;&lt;a href=&quot;#Shell-种类&quot; class=&quot;headerlink&quot; title=&quot;Shell 种类&quot;&gt;&lt;/a&gt;Shell 种类&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Bourne Shell（/usr/bin/sh或/bin/sh）&lt;/li&gt;
+&lt;li&gt;Bourne Again Shell（/bin/bash）&lt;/li&gt;
+&lt;li&gt;C</summary>
+        
+      
+    
+    
+    
+    <category term="Linux" scheme="https://lyf-g.github.io/categories/Linux/"/>
+    
+    
+    <category term="Shell" scheme="https://lyf-g.github.io/tags/Shell/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux常用命令</title>
+    <link href="https://lyf-g.github.io/posts/d0edc1ed.html"/>
+    <id>https://lyf-g.github.io/posts/d0edc1ed.html</id>
+    <published>2023-12-28T11:37:39.000Z</published>
+    <updated>2024-01-04T01:31:25.118Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;1-基础命令&quot;&gt;&lt;a href=&quot;#1-基础命令&quot; class=&quot;headerlink&quot; title=&quot;1 基础命令&quot;&gt;&lt;/a&gt;1 基础命令&lt;/h1&gt;&lt;h2 id=&quot;1-1-关机和重启&quot;&gt;&lt;a href=&quot;#1-1-关机和重启&quot; class=&quot;headerlink&quot; title=&quot;1.1 关机和重启&quot;&gt;&lt;/a&gt;1.1 关机和重启&lt;/h2&gt;&lt;p&gt;关机或重启前需要执行的命令：&lt;/p&gt;
+&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span</summary>
+        
+      
+    
+    
+    
+    <category term="Linux" scheme="https://lyf-g.github.io/categories/Linux/"/>
+    
+    
+    <category term="Linux" scheme="https://lyf-g.github.io/tags/Linux/"/>
+    
+  </entry>
+  
+</feed>

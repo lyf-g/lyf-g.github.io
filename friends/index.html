@@ -1,0 +1,232 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><title>friends | FlowShards</title><noscript>开启JavaScript才能访问本站哦</noscript><link rel="icon" href="https://bu.dusays.com/2023/11/08/654af68b25bb8.jpg"><meta name="description" content=""><!-- index.css--><link rel="stylesheet" href="/css/index.css"><!-- inject head--><script data-pace-options="{ &amp;quot;restartOnRequestAfter&amp;quot;:false,&amp;quot;eventLag&amp;quot;:false}"></script><!-- pwa--><link rel="stylesheet" href="https://cdn3.codesign.qq.com/icons/7pOrz0WXB5ZWJPX/latest/iconfont.css"><link rel="stylesheet" href="/lib/snackbar.min.css"><!-- comment--><!-- search--><script src="https://cdn.bootcdn.net/ajax/libs/lunr.js/2.3.9/lunr.min.js"></script><!-- aplayer--><!-- swiper--><!-- custom inject--><!-- post-ai--><!-- echarts--><script src="https://cdn.bootcdn.net/ajax/libs/echarts/5.4.2/echarts.min.js"></script><script>(win => {
+        win.saveToLocal = {
+            set: function setWithExpiry(key, value, ttl) {
+                if (ttl === 0)
+                    return
+                const now = new Date()
+                const expiryDay = ttl * 86400000
+                const item = {
+                    value: value,
+                    expiry: now.getTime() + expiryDay,
+                }
+                localStorage.setItem(key, JSON.stringify(item))
+            },
+
+            get: function getWithExpiry(key) {
+                const itemStr = localStorage.getItem(key)
+
+                if (!itemStr) {
+                    return undefined
+                }
+                const item = JSON.parse(itemStr)
+                const now = new Date()
+
+                if (now.getTime() > item.expiry) {
+                    localStorage.removeItem(key)
+                    return undefined
+                }
+                return item.value
+            }
+        }
+
+        const DarkModeStatus = localStorage.getItem('theme')
+        if (DarkModeStatus !== null) {
+            if (DarkModeStatus === 'dark') {
+                document.documentElement.setAttribute('data-theme', 'dark')
+            } else {
+                document.documentElement.setAttribute('data-theme', 'light')
+            }
+        }
+
+        const asideStatus = saveToLocal.get('aside-status')
+        if (asideStatus !== undefined) {
+            if (asideStatus === 'hide') {
+                document.documentElement.classList.add('hide-aside')
+            } else {
+                document.documentElement.classList.remove('hide-aside')
+            }
+        }
+    }
+)(window)
+
+console.log("%c🔥 程序：Hexo | 主题：Hexo-Theme-Solitude | 作者：DuoSco团队 | 官网：https://github.com/DuoSco/Hexo-theme-solitude 😋", "color:#fff; background: linear-gradient(270deg, #18d7d3, #68b7dd, #8695e6, #986fee); padding: 8px 15px; border-radius: 8px");
+</script><div><script src="/js/utils.js"></script><script src="/js/main.js"></script></div><!-- global head--><script>const GLOBAL_CONFIG = {
+    root: '/',
+    algolia: undefined,
+    localsearch: {"preload":true,"path":"/search.xml"},
+    runtime: '2024-01-01 00:00:00',
+    lazyload: {
+        enable: true,
+        error: '/img/error_load.png'
+    },
+    hightlight: {
+        enable: false,
+        limit: 200,
+    },
+    lightbox: false,
+    randomlinks: false,
+    lang: {
+        theme: {
+            dark: '已切换至深色模式',
+            light: '已切换至浅色模式',
+        },
+        copy: {
+            success: '复制成功',
+            error: '复制失败',
+        },
+        backtop: '返回顶部',
+        time: {
+            recent: '最近',
+            yesterday: '昨天',
+            berforeyesterday: '前天',
+            daybefore: '天前',
+            runtime: '天',
+        },
+        sayhello: {
+            morning: '一日之计在于晨',
+            noon: '吃饱了才有力气干活',
+            afternoon: '集中精力，攻克难关',
+            night: '不要太劳累了，早睡更健康',
+            goodnight: '睡个好觉，保证精力充沛',
+        },
+        search: {
+            empty: '找不到你查询的内容：${query}',
+            hit: '找到 ${hits} 条结果，用时 ${time} 毫秒',
+            placeholder: '输入关键词快速查找',
+        }
+    },
+    covercolor: false,
+    comment: {
+        enable: false,
+        type: '',
+        twikoo: {
+            url: '',
+            accessToken: ''
+        },
+        waline: {
+            url: '',
+        }
+    },
+    rightside: {
+        enable: false
+    }
+}</script><meta name="generator" content="Hexo 7.0.0">
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="FlowShards" type="application/atom+xml">
+</head><body id="body"><!-- loading--><div id="loading-box" onclick="preloader.endLoading();" style="zoom:1"><div class="loading-bg"><img class="loading-img" src= "/img/loading.gif" data-lazy-src="https://bu.dusays.com/2023/11/08/654af68b25bb8.jpg" alt="loading image"></div></div><script>const preloader = {
+    endLoading: () => {
+        document.getElementById('loading-box').classList.add('loaded');
+    },
+    initLoading: () => {
+        document.getElementById('loading-box').classList.remove('loaded');
+    },
+    removePaceDone: () => {
+        document.getElementById('body').classList = 'pace-done';
+    }
+}
+window.addEventListener('load', () => {
+    preloader.endLoading();
+});
+window.addEventListener('pjax:send', () => {
+    preloader.initLoading();
+});
+document.addEventListener('pjax:complete', () => {
+    preloader.endLoading();
+});</script><style>#loading-box {
+    -webkit-user-select: none;
+}
+
+#loading-box .loading-bg {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: var(--sco-background);
+    z-index: 1999;
+    opacity: 1;
+    transition: 0.2s;
+    pointer-events: all;
+    animation: showLoading 0.3s 0s backwards;
+}
+
+#loading-box.loaded .loading-bg {
+    pointer-events: none;
+    transition: 0.2s;
+    animation: hideLoading 0.3s 0s forwards;
+}
+
+#loading-box .loading-img {
+    width: 100px;
+    margin: auto;
+    animation-duration: 0.2s;
+    animation-name: loadingAction;
+    border-radius: 50px;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes loadingAction {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0.6;
+    }
+}
+
+@keyframes hideLoading {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes showLoading {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}</style><!-- console--><div id="console" style="zoom: 1"><div class="close-btn" onclick="sco.hideConsole()" href="javascript:void(0);"><i class="scoicon sco-close-fill"></i></div><div class="button-group"><div class="console-btn-item"><a class="darkmode_switchbutton" onclick="sco.switchDarkMode()" title="昼夜切换" href="javascript:void(0);" rel="nofollow" data-pjax-state><i class="scoicon sco-moon-clear-fill" style="font-size: 1rem;"></i></a></div><div class="console-btn-item" id="consoleHideAside"><a class="asideSwitch" onclick="sco.switchHideAside()" title="边栏显示控制" href="javascript:void(0);" rel="nofollow" data-pjax-state><i class="scoicon sco-side-bar-fill" style="font-size: 1rem;"></i></a></div></div><div class="console-mask" onclick="sco.hideConsole()"></div></div><!-- sidebar--><div id="sidebar" style="zoom: 1;"><div id="menu-mask" style="display: none;"></div><div id="sidebar-menus"><span class="sidebar-menu-item-title">功能</span><div class="sidebar-menu-item"><a class="darkmode_switchbutton menu-child" onclick="sco.switchDarkMode()" title="显示模式切换" href="javascript:void(0);" rel="nofollow" data-pjax-state><i class="scoicon sco-moon-clear-fill" style="font-size: 1rem;"></i><span>显示模式</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="javascript:void(0);" rel="external nofollow"><span>文库</span></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="scoicon sco-folder-fill"></i><span>文章列表</span></a></li><li><a class="site-page child" href="/categories/"><i class="scoicon sco-checkbox-multiple-blank-fill"></i><span>全部分类</span></a></li><li><a class="site-page child" href="/tags/"><i class="scoicon sco-price-tag-fill"></i><span>全部标签</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);" rel="external nofollow"><span>我的</span></a><ul class="menus_item_child"><li><a class="site-page child" href="/tlink/"><i class="scoicon sco-tools-fill"></i><span>工具箱</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);" rel="external nofollow"><span>关于</span></a><ul class="menus_item_child"><li><a class="site-page child" href="/about/"><i class="scoicon sco-contacts-fill"></i><span>关于本站</span></a></li></ul></div></div><span class="sidebar-menu-item-title">标签</span><div class="card-widget card-tags card-archives card-webinfo card-allinfo"><div class="card-tag-cloud"><a href="/" style="font-size: 1rem; color: #d3d3d3">Linux<sup></sup></a><a href="/" style="font-size: 1rem; color: #d3d3d3">Shell<sup></sup></a></div></div></div></div><div class="page" id="body-wrap"><header class="not-top-img" id="page-header"><nav class="show" id="nav"><div id="nav-group"><div id="blog_name"><a id="site-name" href="/" title="返回博客主页" traget="_self"><span class="scoicon">FlowShards</span></a></div><div id="page-name-mask"><div id="page-name"><a id="page-name-text" onclick="sco.toTop()">friends</a></div></div><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="javascript:void(0);" rel="external nofollow"><span>文库</span></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="scoicon sco-folder-fill"></i><span>文章列表</span></a></li><li><a class="site-page child" href="/categories/"><i class="scoicon sco-checkbox-multiple-blank-fill"></i><span>全部分类</span></a></li><li><a class="site-page child" href="/tags/"><i class="scoicon sco-price-tag-fill"></i><span>全部标签</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);" rel="external nofollow"><span>我的</span></a><ul class="menus_item_child"><li><a class="site-page child" href="/tlink/"><i class="scoicon sco-tools-fill"></i><span>工具箱</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);" rel="external nofollow"><span>关于</span></a><ul class="menus_item_child"><li><a class="site-page child" href="/about/"><i class="scoicon sco-contacts-fill"></i><span>关于本站</span></a></li></ul></div></div></div><div id="nav-left"></div><div id="nav-right"><div class="nav-button" id="randomPost_button"><a class="site-page" onclick="toRandomPost()" title="随机前往一个文章"><i class="scoicon sco-signal-tower-fill" style="font-size: 1rem;"></i></a></div><div class="nav-button" id="search-button"><a class="site-page social-icon search" href="javascript:void(0);" rel="external nofollow" title="搜索"><i class="scoicon sco-search-line" style="font-size: 1rem;"></i></a></div><div class="nav-button" id="nav-totop" onclick="sco.toTop()"><a class="totopbtn"><i class="scoicon sco-arrow-up-line"></i><span id="percent">0</span></a></div><div id="toggle-menu"><a class="site-page"><i class="scoicon sco-menu-line"></i></a></div></div></div></nav></header><main class="layout hide-aside" id="content-inner"><div id="page"><div id="article-container"><p>欢迎交换</p>
+</div></div></main><footer id="footer"><div id="sco-footer-bar"><div class="footer-logo"><span class="scoicon">FlowShards</span></div><div class="footer-bar-description">来自FlowShards - FlowShards的文章</div><a class="footer-bar-link" href="/" data-pjax-state>了解更多</a></div><div id="footer_deal"><a class="deal_link" target="_blank" href="https://github.com/lyf-g" rel="external nofollow noopener" title="Github"><i class="scoicon sco-github-line"></i></a><img class="footer_mini_logo" src= "/img/loading.gif" data-lazy-src="https://bu.dusays.com/2023/11/08/654af68b25bb8.jpg" title="返回顶部" onclick="sco.toTop()"></div><div id="sco-footer"><div class="footer-group"><h3 class="footer-title">导航</h3><div class="footer-links"><a class="footer-item" href="/archives/" title="归档" rel="noopener external nofollow noreferrer">归档</a><a class="footer-item" href="/categories/" title="分类" rel="noopener external nofollow noreferrer">分类</a><a class="footer-item" href="/tags/" title="标签" rel="noopener external nofollow noreferrer">标签</a></div></div><div class="footer-group"><h3 class="footer-title">协议</h3><div class="footer-links"><a class="footer-item" href="/cookies/" title="Cookies" rel="noopener external nofollow noreferrer">Cookies</a><a class="footer-item" href="/privacy/" title="用户协议" rel="noopener external nofollow noreferrer">用户协议</a><a class="footer-item" href="/copyright/" title="版权协议" rel="noopener external nofollow noreferrer">版权协议</a></div></div></div><div id="footer-bar"><div class="footer-bar-links"><div class="footer-bar-left"><div id="footer-bar-tips"><div class="copyright">© 2024 By&nbsp;<a class="footer-bar-link" href="/" rel="external nofollow">lyf</a></div></div></div><div class="footer-bar-right"><a class="footer-bar-link" href="https://github.com/DuoSco/hexo-theme-solitude" rel="external nofollow" target="_self">主题</a><a class="footer-bar-link cc" href="/copyright/" target="_self" rel="external nofollow"><i class="scoicon sco-copyright-line"></i><i class="scoicon sco-creative-commons-by-line"></i><i class="scoicon sco-creative-commons-nc-line"></i><i class="scoicon sco-creative-commons-nd-line"></i></a></div></div></div><div class="needEndHide" id="cookies-window"><div class="cookies-window-title">协议提醒助手</div><div class="cookies-window-content"><span class="cookies-tip">查看本站为你的个人隐私做出的努力</span><a class="cookies-link" href="/privacy/" title="本站如何保护你的隐私" data-pjax-state=""><i class="scoicon sco-arrow-right-circle-fill"></i></a></div></div></footer></div><!-- inject body--><script src="https://cdn.bootcdn.net/ajax/libs/pjax/0.2.8/pjax.min.js"></script><script src="/lib/lazyload.min.js"></script><script src="/lib/snackbar.min.js"></script><div id="js-pjax"><script async src="https://cdn.bootcdn.net/ajax/libs/busuanzi/2.3.0/bsz.pure.mini.min.js"></script><script id="config-diff">var PAGE_CONFIG = {
+    is_post: false,
+    is_page: true,
+    is_home: false,
+    page: 'friends',
+    toc: false,
+    comment: false,
+}</script></div><script src="/js/extend/covercolor/local.js"></script><!-- pjax--><script>let pjaxSelectors = [
+    'title',
+    '#body-wrap',
+    '#site-config',
+    'meta[name="description"]',
+    '#js-pjax'
+]
+
+const pjax = new Pjax({
+    elements: 'a:not([target="_blank"])',
+    selectors: pjaxSelectors,
+    cacheBust: false,
+    analytics: false,
+    scrollRestoration: false
+})
+
+document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+})
+
+document.addEventListener('pjax:error', (e) => {
+    if (e.request.status === 404) {
+        pjax.loadUrl('/404.html')
+    }
+})</script><!-- inject custom body--><!-- search--><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><button class="search-close-button"><i class="scoicon sco-close-fill"></i></button></nav><div class="search-wrap"><div class="search-box"><input class="search-box-input" type="text" id="search-input" autocomplete="off" spellcheck="false" autocorrect="off" autocapitalize="off" placeholder="输入关键词快速查找"></div><div id="search-results"></div><div id="search-pagination"></div><div id="search-tips"></div></div></div><div id="search-mask"></div></div><script src="/js/extend/search/local-search.js"></script><!-- music--><div class="needEndHide" id="nav-music" onclick="sco.musicToggle()"><div id="nav-music-hoverTips">音乐已暂停</div><meting-js id="8407304077" server="netease" type="playlist" mutex="true" preload="none" data-lrctype="0" order="random" theme="var(--sco-main)"></meting-js></div></body></html><script>const posts=["posts/cdf8534a.html","posts/d0edc1ed.html"];function toRandomPost(){ pjax.loadUrl('/'+posts[Math.floor(Math.random()*posts.length)]); };</script>
